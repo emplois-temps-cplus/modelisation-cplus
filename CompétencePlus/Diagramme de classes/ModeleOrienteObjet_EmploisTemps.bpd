@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{1FBD58FE-0B5B-42C0-BA2A-5F65F456C2B2}" Label="" LastModificationDate="1419964972" Name="ModeleOrienteObjet_EmploisTemps" Objects="24" Symbols="3" Target="MySQL 5.0" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" signature="PDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{1FBD58FE-0B5B-42C0-BA2A-5F65F456C2B2}" Label="" LastModificationDate="1419953323" Name="ModeleOrienteObjet_EmploisTemps" Objects="24" Symbols="3" Target="MySQL 5.0" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" signature="PDM_DATA_MODEL_XML" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,12 +12,11 @@
 <a:Code>MODELEORIENTEOBJET_EMPLOISTEMPS</a:Code>
 <a:CreationDate>1419953180</a:CreationDate>
 <a:Creator>chabba</a:Creator>
-<a:ModificationDate>1419964972</a:ModificationDate>
+<a:ModificationDate>1419953252</a:ModificationDate>
 <a:Modifier>chabba</a:Modifier>
 <a:History>ORG {88E2E762-C5A4-4E75-919C-C45F2E71E9BC}
 DAT 1419953252
-ATT MOPT
-ATT FOPT</a:History>
+ATT MOPT</a:History>
 <a:PackageOptionsText>[FolderOptions]
 
 [FolderOptions\Physical Objects]
@@ -105,7 +104,7 @@ GenSyncRmg=0
 [FolderOptions\Physical Objects\Database Generation\Format]
 GenScriptTitle=Yes
 GenScriptNamLabl=No
-GenScriptQDtbs=No
+GenScriptQDtbs=Yes
 GenScriptQOwnr=Yes
 GenScriptCase=0
 GenScriptEncoding=ANSI
@@ -213,7 +212,7 @@ Footer=Yes
 Constraint declaration=No
 
 [FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Column]
-User datatype=No
+User datatype=Yes
 Default value=Yes
 Check=Yes
 Physical Options=Yes
@@ -260,9 +259,9 @@ Constraint declaration=Yes
 Physical Options=Yes
 
 [FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Index\Filter]
-Primary key=No
-Foreign key=No
-Alternate key=No
+Primary key=Yes
+Foreign key=Yes
+Alternate key=Yes
 Cluster=Yes
 Other=Yes
 

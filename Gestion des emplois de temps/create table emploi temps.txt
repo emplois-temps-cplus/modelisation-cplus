@@ -6,9 +6,9 @@ create table EmploisTemps
 );
 
 create table SeancePlannings
-(EmploisTemps_id     INTEGER,
+(EmploisTemp_id     INTEGER,
 id int primary key,jour  INTEGER,
 heuredebut  INTEGER,heureFin INTEGER,
 CONSTRAINT   seanceemploisFK   FOREIGN KEY
-   (EmploisTemps_id) REFERENCES EmploisTemps(id));
+   (EmploisTemp_id) REFERENCES EmploisTemps(id));
 
